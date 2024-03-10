@@ -28,7 +28,7 @@
       "url": "https://www.vu.engineering",
       "startDate": "2023-10-01",
       "endDate": "2024-02-10",
-      "summary": "Working as a machine learning engineer intern, I am responsible for developing and integrating the machine learning pipeline for the company's visual inspection system.",
+      "summary": "Working as a machine learning engineer intern, I was responsible for developing and integrating the machine learning pipeline for the company's visual inspection system.",
       "highlights": ["Visual inspection", "ML automation"]
     }
   ],
@@ -64,7 +64,7 @@
       "publisher": "IGARSS 2023",
       "releaseDate": "2023-10-20",
       "url": "https://ieeexplore.ieee.org/abstract/document/10282926",
-      "summary": "Investigated on the effectiveness of self-supervised pretext tasks for different supervised downstream tasks, and demonstrates the effectiveness of contrastive learning in classification task and generative learning in segmentation task."
+      "summary": "Investigated on the effectiveness of self-supervised pretext tasks for different supervised downstream tasks, and demonstrated the effectiveness of contrastive learning in classification task and generative learning in segmentation task."
     }
   ],
   "skills": [
