@@ -24,9 +24,10 @@
               {% if content.location %}
                 <tr>
                   <td>
-                    <p class="location" style="margin-left: -10px;">
+                    <p class="location" style="margin-left: 0px; margin-top: 5px;">
                       <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ content.location }}
+                      {% assign location_parts = content.location | split: ', ' %}
+                      {{ location_parts[0] }}<br>{{ location_parts[1] }}
                     </p>
                   </td>
                 </tr>

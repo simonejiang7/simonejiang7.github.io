@@ -15,15 +15,17 @@
   "work": [
     {
       "name": "World Intellectual Property Organization (WIPO)",
+      "location": "Genève, Switzerland",
       "position": "Machine Learning Software Engineer Intern",
       "url": "https://www.wipo.int/portal/en/index.html",
       "startDate": "2024-02-15",
       "endDate": "2024-08-15",
       "summary": "Working as a machine learning software engineer intern, I am responsible for indexing and searching patent documents using neural search, and implementing machine learning models for OCR tasks.",
-      "highlights": ["Neural search", "OCR"]
+      "highlights": ["Vector search", "OCR"]
     },
     {
       "name": "VU Engineering",
+      "location": "Zürich, Switzerland",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.vu.engineering",
       "startDate": "2023-10-01",
@@ -34,7 +36,8 @@
   ],
   "education": [
     {
-      "institution": "University of St.Gallen, St.Gallen, Switzerland",
+      "institution": "University of St.Gallen",
+      "location": "St.Gallen, Switzerland",
       "url": "https://www.unisg.ch/en/studium/programme/master/mcs/",
       "studyType": "Master of Computer Science",
       "startDate": "2021-09-01",
@@ -42,7 +45,8 @@
       "courses": ["Machine Learning", "Deep Learning", "Advanced Databases", "Advanced Software and Systems Engineering"]
     },
     {
-      "institution": "University of St.Gallen, St.Gallen, Switzerland",
+      "institution": "University of St.Gallen",
+      "location": "St.Gallen, Switzerland",
       "url": "https://www.unisg.ch/en/studium/programme/master/banking-and-finance-mbf/",
       "studyType": "Master of Banking and Finance",
       "startDate": "2018-09-01",
@@ -50,7 +54,8 @@
       "courses": ["Financial Markets", "Financial Institutions", "Quantitative Methods"]
     },
     {
-      "institution": "Peking University, Beijing, China",
+      "institution": "Peking University",
+      "location": "Beijing, China",
       "url": "https://yuanpei.pku.edu.cn/en/aboutyuanpei/collegeprofile/index.htm",
       "studyType": "Bachelor of Economics",
       "startDate": "2013-09-01",
