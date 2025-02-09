@@ -6,7 +6,7 @@ inline: true
 related_posts: false
 ---
 
-[Our paper](https://ieeexplore.ieee.org/abstract/document/10282926) derived from the Deep Learning course got accepted to [IGARSS 2023](https://2023.ieeeigarss.org) :sparkles: 
+[Our paper](https://ieeexplore.ieee.org/abstract/document/10282926) based on the Deep Learning course, was accepted to [IGARSS 2023](https://2023.ieeeigarss.org) :sparkles: 
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 

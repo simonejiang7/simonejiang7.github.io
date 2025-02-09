@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started first machine learning engineer internship at [VU Engineering](https://www.vu.engineering) :smile:
+Started my first machine learning engineer internship at [VIUN](https://www.viun.tech) :smile:
