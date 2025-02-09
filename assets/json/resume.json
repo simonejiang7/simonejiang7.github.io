@@ -2,34 +2,36 @@
   "basics": {
     "name": "Xuemei Jiang",
     "image": "",
-    "email": "xuemei.jiang@student.unisg.ch",
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "xuemei.jg@gmail.com"
   },
   "work": [
     {
       "name": "World Intellectual Property Organization (WIPO)",
       "location": "Genève, Switzerland",
-      "position": "Machine Learning Software Engineer Intern",
+      "position": "Machine Learning Engineer",
       "url": "https://www.wipo.int/portal/en/index.html",
-      "startDate": "2024-02-15",
-      "endDate": "2024-08-15",
-      "summary": "Working as a machine learning software engineer intern, I am responsible for indexing and searching patent documents using neural search, and implementing machine learning models for OCR tasks.",
-      "highlights": ["Vector search", "OCR"]
+      "startDate": "2024-08-15",
+      "summary": "Trained models and implemented a multi-view image search system from scratch; also developed an AI-based image processing tool for examiners.",
+      "highlights": ["Image similarity search","Image processsing", "VLM"]
     },
     {
-      "name": "VU Engineering",
+      "name": "World Intellectual Property Organization (WIPO)",
+      "location": "Genève, Switzerland",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://www.wipo.int/portal/en/index.html",
+      "startDate": "2024-02-15",
+      "endDate": "2024-08-14",
+      "summary": "Implemented and evaluated vector search databases for patent documents, as well as creating synthetic datasets to support LLM fine-tuning and Retrieval-Augmented Generation (RAG).",
+      "highlights": ["Vector search", "LLM","RAG"]
+    },
+    {
+      "name": "VIUN (previously VU Engineering)",
       "location": "Zürich, Switzerland",
       "position": "Machine Learning Engineer Intern",
-      "url": "https://www.vu.engineering",
+      "url": "https://www.viun.tech",
       "startDate": "2023-10-01",
       "endDate": "2024-02-10",
-      "summary": "Working as a machine learning engineer intern, I was responsible for developing and integrating the machine learning pipeline for the company's visual inspection system.",
+      "summary": "Developed and integrated the machine learning pipeline for the company's visual inspection system, from model training to deployment.",
       "highlights": ["Visual inspection", "ML automation"]
     }
   ],
@@ -40,7 +42,7 @@
       "url": "https://www.unisg.ch/en/studium/programme/master/mcs/",
       "studyType": "Master of Computer Science",
       "startDate": "2021-09-01",
-      "endDate": "2024-10-01",
+      "endDate": "2025-03-29",
       "courses": ["Machine Learning", "Deep Learning", "Advanced Databases", "Advanced Software and Systems Engineering"]
     },
     {
@@ -64,6 +66,13 @@
   ],
   "publications": [
     {
+      "name": "Less is More: Active Self-Supervised Learning in Remote Sensing",
+      "publisher": "IGARSS 2024",
+      "releaseDate": "2024-09-05",
+      "url": "https://ieeexplore.ieee.org/document/10640981",
+      "summary": "Established the ”SSL+AL” sampling framework in remote sensing, demonstrated that different pre-training sampling methods can affect the downstream performance results. "
+    },
+    {
       "name": "Self Supervised Learning in Remote Sensing: Quantifying Approaches Effectiveness Across Downstream Tasks",
       "publisher": "IGARSS 2023",
       "releaseDate": "2023-10-20",
@@ -73,19 +82,31 @@
   ],
   "skills": [
     {
-      "name": "Computer science",
+      "name": "Software Development",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid",
       "keywords": [
-        "Machine Learning",
-        "Deep Learning",
-        "Computer Vision",
-        "Natural Language Processing",
         "Python Programming",
         "MLOps",
-        "Data Engineering"
+        "Data Engineering",
+        "ML Pipeline"
       ]
-    }
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid",
+      "keywords": [
+        "Supervised & Self-supervised Learning",
+        "Deep Learning",
+        "Feature Engineering",
+        "Model Training & Optimization",
+        "Image & Text Embeddings",
+        "Vector Search",
+        "Multimodal Learning",
+        "Large Language Models (LLMs)"
+      ]
+    }  
   ],
   "languages": [
     {
