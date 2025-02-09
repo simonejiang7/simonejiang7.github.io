@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: CS Student @ HSG
+# subtitle: ML Engineer
 
 profile:
   align: right
@@ -19,9 +19,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Master of Computer Science student at the [University of St.Gallen (HSG)](https://www.unisg.ch/en/). I also hold a Master of Banking and Finance degree from the University of St.Gallen and a Bachelor of Echonomics from [Peking University](https://english.pku.edu.cn). 
-<!-- In 2020, motivated by numerous instances where life seemed to be dictated by external forces, I decided to shift my career path towards my true passion in programming, transitioning from Finance to Computer Science. -->
+Hi! :wave:
 
-My interest is in **Machine Learning**, especially in **Computer Vision**. Currenlty I am working as a Machine Learning Engineer intern at [WIPO](https://www.wipo.int/portal/en/index.html), and I am conducting my master's thesis in Active Learning in Remote Sensing at the [AIML lab](https://ics.unisg.ch/chair-aiml-borth/) at the University of St.Gallen.
+I’m a Machine Learning Engineer based in Geneva, Switzerland. Before moving here, I studied [computer science](https://www.unisg.ch/en/studium/programme/master/mcs/) at the [University of St. Gallen (HSG)](https://www.unisg.ch/en/?chash=4f06c9d72f4e61627fdcc5005dd584e2&opendocument=&page=8&cHash=47226fa4fd2e6dba48330163fec5c7cb). I also hold a [Master’s in Banking and Finance](https://www.unisg.ch/en/studium/programme/master/banking-and-finance-mbf/) from the University of St. Gallen and a Bachelor’s in Economics from [Peking University]().
 
-Now I am living in Switzerland. On my freedays I like skiing and watching football games.
+I like to combine the certainty of software engineering with the uncertainty of machine learning. I enjoy building clear, well-structured steps, but the surprising results from the experiments are also keep me excited! Right now, I’m mainly working on computer vision, focusing on multi-view image search, and I’m also interested in other state-of-the-art technologies in the industry.
+
+I used to play volleyball and football. These days, I spend most of my free time skiing and exploring the nearby area, which has been a great way to recharge.
