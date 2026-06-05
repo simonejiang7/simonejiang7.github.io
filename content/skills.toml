@@ -1,0 +1,7 @@
+[[categories]]
+name = "ML / CV"
+skills = ["PyTorch", "Computer Vision", "Distributed Training", "End-to-end Machine Learning"]
+
+[[categories]]
+name = "Retrieval"
+skills = ["Vector Search"]

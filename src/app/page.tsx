@@ -6,9 +6,14 @@ import { Publication } from '@/types/publication';
 import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
 
+interface SkillCategory {
+  name: string;
+  skills: string[];
+}
+
 interface SectionConfig {
   id: string;
-  type: 'markdown' | 'publications' | 'list';
+  type: 'markdown' | 'publications' | 'list' | 'skills';
   title?: string;
   source?: string;
   filter?: string;
@@ -16,6 +21,7 @@ interface SectionConfig {
   content?: string;
   publications?: Publication[];
   items?: NewsItem[];
+  categories?: SkillCategory[];
 }
 
 interface NewsItem {
@@ -53,6 +59,13 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         return {
           ...section,
           items: newsData?.news || [],
+        };
+      }
+      case 'skills': {
+        const skillsData = section.source ? getTomlContent<{ categories: SkillCategory[] }>(section.source, locale) : null;
+        return {
+          ...section,
+          categories: skillsData?.categories || [],
         };
       }
       default:
