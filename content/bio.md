@@ -4,4 +4,4 @@ I'm a **ML Engineer** based in Heidelberg, Germany. Before moving here, I spent 
 
 I like to **combine the certainty of software engineering with the uncertainty of machine learning**. I enjoy building clear, well-structured processes, and the unexpected results from experiments keep me excited. Working with machine learning models is a great way for me to express creativity and solve problems, and I find it rewarding to see my work come to life in real-world applications.
 
-I used to play volleyball and football. These days, I spend most of my free time exploring the nearby area in summer and skiing in winter, which has been a great way to recharge.
+I used to play volleyball and football. These days, I spend most of my free time exploring the nearby area and skiing in winter, which has been a great way to recharge.
