@@ -40,6 +40,7 @@ export default function Profile({ author, social, features, researchInterests, s
 
     const [hasLiked, setHasLiked] = useState(false);
     const [showThanks, setShowThanks] = useState(false);
+    const [emailCopied, setEmailCopied] = useState(false);
     const [showAddress, setShowAddress] = useState(false);
     const [isAddressPinned, setIsAddressPinned] = useState(false);
     const [showEmail, setShowEmail] = useState(false);
@@ -193,9 +194,13 @@ export default function Profile({ author, social, features, researchInterests, s
                                                         </div>
                                                     )}
                                                 </div>
-                                                {social.location_details?.map((line, i) => (
-                                                    <p key={i} className="break-words">{line}</p>
-                                                ))}
+                                                {social.location_details?.length ? (
+                                                    social.location_details.map((line, i) => (
+                                                        <p key={i} className="break-words">{line}</p>
+                                                    ))
+                                                ) : social.location ? (
+                                                    <p className="break-words">{social.location}</p>
+                                                ) : null}
                                                 <div className="mt-2 flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-2 justify-center">
                                                     {social.location_url && (
                                                         <a
@@ -272,14 +277,17 @@ export default function Profile({ author, social, features, researchInterests, s
                                                 </div>
                                                 <p className="break-words">{social.email?.replace('@', ' (at) ')}</p>
                                                 <div className="mt-2">
-                                                    <a
-                                                        href={link.href}
+                                                    <button
+                                                        onClick={() => {
+                                                            navigator.clipboard.writeText(social.email || '');
+                                                            setEmailCopied(true);
+                                                            setTimeout(() => setEmailCopied(false), 2000);
+                                                        }}
                                                         className="inline-flex items-center justify-center space-x-2 bg-accent hover:bg-accent-dark text-white px-3 py-1 rounded-md text-xs font-medium transition-colors duration-200 w-full sm:w-auto"
                                                     >
                                                         <EnvelopeIcon className="h-4 w-4" />
-                                                        <span className="sm:hidden">{messages.profile.send}</span>
-                                                        <span className="hidden sm:inline">{messages.profile.sendEmail}</span>
-                                                    </a>
+                                                        <span>{emailCopied ? 'Copied!' : 'Copy Email'}</span>
+                                                    </button>
                                                 </div>
                                             </div>
                                             <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-800"></div>
