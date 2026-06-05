@@ -30,10 +30,3 @@ Self-Supervised Learning · Active Learning · Computer Vision · Model Training
 
 ### Retrieval & LLMs
 Image & Text Embeddings · Vector Search · Large Language Models (LLMs) · Multi-agent Systems
-
-## Languages
-
-- **English:** Fluent
-- **Chinese:** Native
-- **Korean:** Bilingual
-- **German:** Basic
