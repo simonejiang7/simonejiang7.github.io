@@ -3,17 +3,18 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Computer Vision",
-  "Active Learning",
+  "Multimodal Learning",
   "Representation Learning",
-  "information Retrieval"
+  "Information Retrieval",
 ]
 skills = [
-  "PyTorch",
+  "Python",
+  "End-to-end Machine Learning",
   "Computer Vision",
   "Distributed Training",
-  "End-to-end Machine Learning",
-  "Vector Search"
+  "Vector Search",
+  "LLM",
+  "AI Agents"
 ]
 
 [[sections]]
