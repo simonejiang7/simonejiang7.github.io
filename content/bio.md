@@ -1,5 +1,7 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+Hi! 👋
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I'm a Machine Learning Engineer based in Heidelberg, Germany. I currently work at a medium-sized startup as an AI Developer, where I help build an AI-based ERP platform. Before moving here, I spent time in Geneva, Zurich, and St.Gallen in Switzerland for both work and studies. I studied computer science at the University of St.Gallen (HSG). I also hold a Master's degree in Banking and Finance from the University of St.Gallen and a Bachelor's degree in Economics from Peking University.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+I like to combine the certainty of software engineering with the uncertainty of machine learning. I enjoy building clear, well-structured processes, and the unexpected results from experiments keep me excited.
+
+I used to play volleyball and football. These days, I spend most of my free time skiing and exploring the nearby area, which has been a great way to recharge.
