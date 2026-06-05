@@ -8,6 +8,13 @@ research_interests = [
   "Representation Learning",
   "information Retrieval"
 ]
+skills = [
+  "PyTorch",
+  "Computer Vision",
+  "Distributed Training",
+  "End-to-end Machine Learning",
+  "Vector Search"
+]
 
 [[sections]]
 id = "about"
