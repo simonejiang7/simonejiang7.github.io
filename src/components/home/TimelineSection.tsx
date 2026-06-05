@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
 
 export interface TimelineEntry {
   period: string;
@@ -45,9 +46,16 @@ export default function TimelineSection({ entries, title = 'Timeline' }: Timelin
               <div className="flex-shrink-0 w-3 h-3 rounded-full bg-accent mt-1 ring-2 ring-background relative z-10" />
 
               {/* Content */}
-              <p className="text-sm text-neutral-700 dark:text-neutral-400 leading-relaxed">
-                {entry.content}
-              </p>
+              <div className="text-sm text-neutral-700 dark:text-neutral-400 leading-relaxed">
+                <ReactMarkdown
+                  components={{
+                    p: ({ children }) => <p>{children}</p>,
+                    strong: ({ children }) => <strong className="font-semibold text-accent">{children}</strong>,
+                  }}
+                >
+                  {entry.content}
+                </ReactMarkdown>
+              </div>
             </motion.div>
           ))}
         </div>
