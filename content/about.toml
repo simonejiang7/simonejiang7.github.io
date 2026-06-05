@@ -16,7 +16,7 @@ source = "bio.md"
 title = "About"
 
 [[sections]]
-id = "skills"
-type = "skills"
-source = "skills.toml"
-title = "Skills"
+id = "timeline"
+type = "timeline"
+source = "timeline.toml"
+title = "Timeline"

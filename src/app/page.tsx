@@ -11,9 +11,14 @@ interface SkillCategory {
   skills: string[];
 }
 
+interface TimelineEntry {
+  period: string;
+  content: string;
+}
+
 interface SectionConfig {
   id: string;
-  type: 'markdown' | 'publications' | 'list' | 'skills';
+  type: 'markdown' | 'publications' | 'list' | 'skills' | 'timeline';
   title?: string;
   source?: string;
   filter?: string;
@@ -22,6 +27,7 @@ interface SectionConfig {
   publications?: Publication[];
   items?: NewsItem[];
   categories?: SkillCategory[];
+  entries?: TimelineEntry[];
 }
 
 interface NewsItem {
@@ -66,6 +72,13 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         return {
           ...section,
           categories: skillsData?.categories || [],
+        };
+      }
+      case 'timeline': {
+        const timelineData = section.source ? getTomlContent<{ entries: TimelineEntry[] }>(section.source, locale) : null;
+        return {
+          ...section,
+          entries: timelineData?.entries || [],
         };
       }
       default:

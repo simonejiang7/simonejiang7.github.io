@@ -5,6 +5,7 @@ import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
 import SkillsSection, { SkillCategory } from '@/components/home/SkillsSection';
+import TimelineSection, { TimelineEntry } from '@/components/home/TimelineSection';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
@@ -15,7 +16,7 @@ import { useLocaleStore } from '@/lib/stores/localeStore';
 
 interface SectionConfig {
   id: string;
-  type: 'markdown' | 'publications' | 'list' | 'skills';
+  type: 'markdown' | 'publications' | 'list' | 'skills' | 'timeline';
   title?: string;
   source?: string;
   filter?: string;
@@ -24,6 +25,7 @@ interface SectionConfig {
   publications?: Publication[];
   items?: NewsItem[];
   categories?: SkillCategory[];
+  entries?: TimelineEntry[];
 }
 
 type PageData =
@@ -102,6 +104,14 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                       <SkillsSection
                         key={section.id}
                         categories={section.categories || []}
+                        title={section.title}
+                      />
+                    );
+                  case 'timeline':
+                    return (
+                      <TimelineSection
+                        key={section.id}
+                        entries={section.entries || []}
                         title={section.title}
                       />
                     );
