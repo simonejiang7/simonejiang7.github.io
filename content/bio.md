@@ -1,6 +1,7 @@
 Hi! I am Xuemei.
 
-I'm a **ML Engineer** based in Heidelberg, Germany. I hold degrees in Computer Science and Banking & Finance from the University of St.Gallen (HSG), and Economics from Peking University. Over the years I've lived and worked across Switzerland before moving to Heidelberg.
+I'm a **ML Engineer** based in Heidelberg, Germany. I hold degrees in Computer Science and Banking & Finance from the University of St.Gallen (HSG), and Economics from Peking University. 
+<!-- Over the years I've lived and worked across Switzerland before moving to Heidelberg. -->
 
 I like to **combine the certainty of software engineering with the uncertainty of machine learning**. I enjoy building clear, well-structured processes, and the unexpected results from experiments keep me excited. Working with machine learning models is a great way for me to express creativity and solve problems, and I find it rewarding to see my work come to life in real-world applications.
 
